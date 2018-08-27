@@ -13,6 +13,15 @@
 		3A9582322133ADC40003CAA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9582312133ADC40003CAA3 /* main.m */; };
 		3A95823C2133ADC40003CAA3 /* bannerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95823B2133ADC40003CAA3 /* bannerDemoTests.m */; };
 		3A9582472133ADC40003CAA3 /* bannerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9582462133ADC40003CAA3 /* bannerDemoUITests.m */; };
+		3A9582562133ADD90003CAA3 /* WHCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9582552133ADD90003CAA3 /* WHCViewController.m */; };
+		3A9582642133ADFA0003CAA3 /* BannerImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9582582133ADFA0003CAA3 /* BannerImageModel.m */; };
+		3A9582652133ADFA0003CAA3 /* BannerImageTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9582592133ADFA0003CAA3 /* BannerImageTitleModel.m */; };
+		3A9582662133ADFA0003CAA3 /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95825A2133ADFA0003CAA3 /* PGIndexBannerSubiew.m */; };
+		3A9582672133ADFA0003CAA3 /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95825C2133ADFA0003CAA3 /* NewPagedFlowView.m */; };
+		3A9582682133ADFA0003CAA3 /* PGCustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95825D2133ADFA0003CAA3 /* PGCustomBannerView.m */; };
+		3A9582692133ADFA0003CAA3 /* WHCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9582622133ADFA0003CAA3 /* WHCBannerView.m */; };
+		3A95826D2133D07B0003CAA3 /* NSObject+SafeSetValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A95826B2133D07A0003CAA3 /* NSObject+SafeSetValue.m */; };
+		CC8FD4AFC9DD3ABCB76E4606 /* libPods-bannerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35413917855C5F6A38DD6F04 /* libPods-bannerDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35413917855C5F6A38DD6F04 /* libPods-bannerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bannerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9582252133ADC40003CAA3 /* bannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9582282133ADC40003CAA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A9582292133ADC40003CAA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +56,24 @@
 		3A9582422133ADC40003CAA3 /* bannerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bannerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9582462133ADC40003CAA3 /* bannerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bannerDemoUITests.m; sourceTree = "<group>"; };
 		3A9582482133ADC40003CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A9582542133ADD80003CAA3 /* WHCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCViewController.h; sourceTree = "<group>"; };
+		3A9582552133ADD90003CAA3 /* WHCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCViewController.m; sourceTree = "<group>"; };
+		3A9582582133ADFA0003CAA3 /* BannerImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerImageModel.m; sourceTree = "<group>"; };
+		3A9582592133ADFA0003CAA3 /* BannerImageTitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerImageTitleModel.m; sourceTree = "<group>"; };
+		3A95825A2133ADFA0003CAA3 /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGIndexBannerSubiew.m; sourceTree = "<group>"; };
+		3A95825B2133ADFA0003CAA3 /* WHCBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHCBannerView.h; sourceTree = "<group>"; };
+		3A95825C2133ADFA0003CAA3 /* NewPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPagedFlowView.m; sourceTree = "<group>"; };
+		3A95825D2133ADFA0003CAA3 /* PGCustomBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGCustomBannerView.m; sourceTree = "<group>"; };
+		3A95825E2133ADFA0003CAA3 /* BannerImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerImageModel.h; sourceTree = "<group>"; };
+		3A95825F2133ADFA0003CAA3 /* PGIndexBannerSubiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGIndexBannerSubiew.h; sourceTree = "<group>"; };
+		3A9582602133ADFA0003CAA3 /* BannerImageTitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerImageTitleModel.h; sourceTree = "<group>"; };
+		3A9582612133ADFA0003CAA3 /* NewPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPagedFlowView.h; sourceTree = "<group>"; };
+		3A9582622133ADFA0003CAA3 /* WHCBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHCBannerView.m; sourceTree = "<group>"; };
+		3A9582632133ADFA0003CAA3 /* PGCustomBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGCustomBannerView.h; sourceTree = "<group>"; };
+		3A95826B2133D07A0003CAA3 /* NSObject+SafeSetValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeSetValue.m"; sourceTree = "<group>"; };
+		3A95826C2133D07A0003CAA3 /* NSObject+SafeSetValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeSetValue.h"; sourceTree = "<group>"; };
+		90A29B0E704923328DB3E6B2 /* Pods-bannerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bannerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-bannerDemo/Pods-bannerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2CBB9FD18422DFB13E391B5 /* Pods-bannerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bannerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bannerDemo/Pods-bannerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8FD4AFC9DD3ABCB76E4606 /* libPods-bannerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11408D2AF73C80BBDADBCA0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2CBB9FD18422DFB13E391B5 /* Pods-bannerDemo.debug.xcconfig */,
+				90A29B0E704923328DB3E6B2 /* Pods-bannerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3A95821C2133ADC40003CAA3 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +118,8 @@
 				3A95823A2133ADC40003CAA3 /* bannerDemoTests */,
 				3A9582452133ADC40003CAA3 /* bannerDemoUITests */,
 				3A9582262133ADC40003CAA3 /* Products */,
+				11408D2AF73C80BBDADBCA0E /* Pods */,
+				60B11EBB656038166CDCFBA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +136,9 @@
 		3A9582272133ADC40003CAA3 /* bannerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3A9582572133ADFA0003CAA3 /* WHCBanner */,
+				3A9582542133ADD80003CAA3 /* WHCViewController.h */,
+				3A9582552133ADD90003CAA3 /* WHCViewController.m */,
 				3A9582282133ADC40003CAA3 /* AppDelegate.h */,
 				3A9582292133ADC40003CAA3 /* AppDelegate.m */,
 				3A95822B2133ADC40003CAA3 /* Assets.xcassets */,
@@ -124,6 +167,43 @@
 			path = bannerDemoUITests;
 			sourceTree = "<group>";
 		};
+		3A9582572133ADFA0003CAA3 /* WHCBanner */ = {
+			isa = PBXGroup;
+			children = (
+				3A95826A2133D07A0003CAA3 /* Category */,
+				3A9582582133ADFA0003CAA3 /* BannerImageModel.m */,
+				3A9582592133ADFA0003CAA3 /* BannerImageTitleModel.m */,
+				3A95825A2133ADFA0003CAA3 /* PGIndexBannerSubiew.m */,
+				3A95825B2133ADFA0003CAA3 /* WHCBannerView.h */,
+				3A95825C2133ADFA0003CAA3 /* NewPagedFlowView.m */,
+				3A95825D2133ADFA0003CAA3 /* PGCustomBannerView.m */,
+				3A95825E2133ADFA0003CAA3 /* BannerImageModel.h */,
+				3A95825F2133ADFA0003CAA3 /* PGIndexBannerSubiew.h */,
+				3A9582602133ADFA0003CAA3 /* BannerImageTitleModel.h */,
+				3A9582612133ADFA0003CAA3 /* NewPagedFlowView.h */,
+				3A9582622133ADFA0003CAA3 /* WHCBannerView.m */,
+				3A9582632133ADFA0003CAA3 /* PGCustomBannerView.h */,
+			);
+			path = WHCBanner;
+			sourceTree = "<group>";
+		};
+		3A95826A2133D07A0003CAA3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3A95826B2133D07A0003CAA3 /* NSObject+SafeSetValue.m */,
+				3A95826C2133D07A0003CAA3 /* NSObject+SafeSetValue.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		60B11EBB656038166CDCFBA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35413917855C5F6A38DD6F04 /* libPods-bannerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A95824B2133ADC40003CAA3 /* Build configuration list for PBXNativeTarget "bannerDemo" */;
 			buildPhases = (
+				E8CAC69E5E07C0B948392EA3 /* [CP] Check Pods Manifest.lock */,
 				3A9582212133ADC40003CAA3 /* Sources */,
 				3A9582222133ADC40003CAA3 /* Frameworks */,
 				3A9582232133ADC40003CAA3 /* Resources */,
+				4844BB5315CA2C93132E77B3 /* [CP] Embed Pods Frameworks */,
+				D05B405B6AAB59BA87F26C69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +334,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4844BB5315CA2C93132E77B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bannerDemo/Pods-bannerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05B405B6AAB59BA87F26C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bannerDemo/Pods-bannerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CAC69E5E07C0B948392EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bannerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A9582212133ADC40003CAA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3A9582322133ADC40003CAA3 /* main.m in Sources */,
+				3A9582562133ADD90003CAA3 /* WHCViewController.m in Sources */,
+				3A9582682133ADFA0003CAA3 /* PGCustomBannerView.m in Sources */,
+				3A9582692133ADFA0003CAA3 /* WHCBannerView.m in Sources */,
+				3A9582662133ADFA0003CAA3 /* PGIndexBannerSubiew.m in Sources */,
+				3A95826D2133D07B0003CAA3 /* NSObject+SafeSetValue.m in Sources */,
 				3A95822A2133ADC40003CAA3 /* AppDelegate.m in Sources */,
+				3A9582672133ADFA0003CAA3 /* NewPagedFlowView.m in Sources */,
+				3A9582642133ADFA0003CAA3 /* BannerImageModel.m in Sources */,
+				3A9582652133ADFA0003CAA3 /* BannerImageTitleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +552,7 @@
 		};
 		3A95824C2133ADC40003CAA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CBB9FD18422DFB13E391B5 /* Pods-bannerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +566,7 @@
 		};
 		3A95824D2133ADC40003CAA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A29B0E704923328DB3E6B2 /* Pods-bannerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

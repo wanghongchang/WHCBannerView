@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WHCViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,6 +19,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [WHCViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }

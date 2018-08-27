@@ -8,7 +8,6 @@
 
 #import "WHCViewController.h"
 #import "WHCBannerView.h"
-#import "WHC1ViewController.h"
 @interface WHCViewController ()
 @property (nonatomic, strong)WHCBannerView *bannerView;
 @property (nonatomic, strong)NSMutableArray *bannerData;
