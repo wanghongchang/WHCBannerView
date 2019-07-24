@@ -20,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _bannerData = [NSMutableArray array];
+    /** 创建View*/
     [self configBannerView];
+    /** 创建数据源*/
     [self configBannerData];
 }
 
